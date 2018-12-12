@@ -1,4 +1,15 @@
+/*
+Sort in C++ Standard Template Library (STL)
 
+Sorting is one of the most basic functions applied to data. It means arranging the data in a particular fashion, which can be increasing or decreasing. There is a builtin function in C++ STL by the name of sort().
+Internally this function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
+The prototype for sort is :
+
+sort(startaddress, endaddress)
+
+startaddress: the address of the first element of the array
+endaddress: the address of the last element of the array
+*/
 
 #include <iostream>
 #include <algorithm>
