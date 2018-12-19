@@ -24,6 +24,29 @@ swap() – It is used to swap the contents of one vector with another vector of 
 clear() – It is used to remove all the elements of the vector container
 
 
+vector of vectors : 
+
+DECLARING 2D VECTOR
+vector < vector<int> > v;
+
+for(int i=0; i < 3; i++){
+     vector <int> temp;
+ 
+     for(int j=0; j < 4; j++){
+         temp.push_back(i);
+      }
+ 
+     v.push_back(temp);
+}
+PRINTING 2D VECTOR
+
+for(int i=0; i < stuff.size(); i++){
+    for(int j=0; j < stuff[i].size(); j++){
+        cout<<stuff[i][j]<<" ";
+    }
+    cout<<"\n";
+}
+
 */
 
 #include <iostream>
