@@ -1,7 +1,9 @@
 In C++ STL, there is priority_queue that can directly be used to implement Max Heap. See below example.
 
 #include <queue> - needs to be included 
-
+priority queue uses top() instead of using front()
+  
+  
 filter_none
 edit
 play_arrow
