@@ -4,6 +4,16 @@ In C++ STL, there is priority_queue that can directly be used to implement Max H
 priority queue uses top() instead of using front()
   
   
+  /*
+  
+  links -
+  
+  https://www.geeksforgeeks.org/implement-min-heap-using-stl/
+
+  https://www.geeksforgeeks.org/applications-priority-queue/
+
+  */
+  
 filter_none
 edit
 play_arrow
