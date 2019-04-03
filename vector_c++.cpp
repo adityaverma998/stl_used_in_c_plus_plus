@@ -47,6 +47,9 @@ for(int i=0; i < stuff.size(); i++){
     cout<<"\n";
 }
 
+
+https://www.hackerrank.com/challenges/vector-erase/problem
+
 */
 
 #include <iostream>
